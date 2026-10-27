@@ -1,0 +1,180 @@
+body{
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-image{
+border-radius:25px;
+transition:.4s;
+}
+
+.hero-image:hover{
+transform:scale(1.02);
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #212529;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+.card{
+    border: none;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card-img-top{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.wisata-card .btn{
+    transition:.3s;
+}
+
+.wisata-card .btn:hover{
+    letter-spacing:1px;
+}
+
+.wisata-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.wisata-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+}
+
+.modal-body img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.modal-body img:hover{
+    transform: scale(1.05);
+}
+
+.gallery{
+    background-color: white;
+}
+
+.gallery-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.gallery-img:hover{
+    transform: scale(1.05);
+}
+
+html, body{
+    min-height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    transition: .3s;
+}
+
+.gallery img:hover{
+    transform: translateY(-8px);
+}
+
+.footer{
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;  
+}
+
+.footer h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer-desc{
+    max-width: 650px;
+    margin: auto;
+    color: #d1d5db;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer hr{
+    border-color: rgba(255,255,255,.15);
+    margin: 15px auto; 
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.footer-menu a:hover{
+    color: #ffc107;
+    transform: translateY(-2px);
+}
+
+.footer p{
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+.footer-menu a:hover{
+transform:translateY(-3px);
+}
